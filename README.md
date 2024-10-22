@@ -1,12 +1,12 @@
-### Bionic EPUB Converter
+# Bionic EPUB Converter
 Bionic EPUB Converter is a tool that transforms EPUB files into the Bionic Reading format while preserving the structure of chapters, paragraphs, and images.
 
 ## Requirements
 Before you start, make sure to install the necessary Python libraries:
 
-'''console
+```console
 pip install ebooklib beautifulsoup4
-'''
+```
 
 ## How to Use
 Clone or download this repository.
@@ -15,8 +15,8 @@ To convert your EPUB file, simply drag and drop the file either:
 Into the terminal where the Python script is running.
 Directly onto the Python script.
 The converted file will be saved with the Bionic Reading format, ready for faster and more focused reading.
-# Example
-'''console
+### Example
+```console
 python bionic_epub_converter.py yourfile.epub
-'''
+```
 Alternatively, just drag and drop yourfile.epub into the script or terminal.
